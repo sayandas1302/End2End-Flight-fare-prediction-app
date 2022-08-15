@@ -20,6 +20,17 @@ def predict(x):
 
 # The Layout of the app
 
+# background
+st.markdown(f"""
+         <style>
+         .stApp {{
+             background-image: url("https://live.staticflickr.com/6083/6153002630_fd390b6276_b.jpg");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """, unsafe_allow_html=True)
+
 # app title
 st.write('''
 ## Flight Fare Prediction App
